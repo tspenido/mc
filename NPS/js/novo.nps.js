@@ -10,7 +10,7 @@ function sendPass() {
 
     } else if (nradio == undefined) {
 
-        alerta("Por favor, atribua uma nota o quanto vocÃª indicaria nossa empresa para um amigo.");
+        alerta("Por favor, atribua uma nota o quanto você indicaria nossa empresa para um amigo.");
 
     } else {
 
