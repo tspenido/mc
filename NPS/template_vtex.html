@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="pt-br">
+
+<head>
+    <vtex:metaTags/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, user-scalable=no" />
+    <vtex:template id="y-Head-Novo" />
+    <link href="/arquivos/novo.nps.min.css?v=13" rel="stylesheet" type="text/css" />
+    <link href="/arquivos/y-category-default-8.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="y-general">
+        <vtex:template id="y-Header-Novo" />
+        <div class="y-content">
+
+            <div class="y-wrapper">
+
+                <div class="x-breadcrumb">
+                    <vtex.cmc:breadCrumb/>
+                </div>
+
+                <div class="nps-container">
+
+                    <img src="/arquivos/novo-nps_01.png" class="img-titulo" />
+
+                    <div class="nps-email">
+                        <span>e-mail</span>
+                        <input type="text" class="ipt-email" />
+                    </div>
+
+                    <div class="nps-votacao">
+
+                        <span>1. Em uma escala de <strong>0 a 10</strong>, o quanto você indicaria nossa empresa para um(a) amigo(a)?</span>
+                        <div class="nps-votacao_itens">
+                            <div class="nps-notas nota-0" rel="0">0</div>
+                            <div class="nps-notas nota-1" rel="1">1</div>
+                            <div class="nps-notas nota-2" rel="2">2</div>
+                            <div class="nps-notas nota-3" rel="3">3</div>
+                            <div class="nps-notas nota-4" rel="4">4</div>
+                            <div class="nps-notas nota-5" rel="5">5</div>
+                            <div class="nps-notas nota-6" rel="6">6</div>
+                            <div class="nps-notas nota-7" rel="7">7</div>
+                            <div class="nps-notas nota-8" rel="8">8</div>
+                            <div class="nps-notas nota-9" rel="9">9</div>
+                            <div class="nps-notas nota-10" rel="10">10</div>
+                        </div>
+
+                    </div>
+
+                    <div class="nps-mensagem">
+                        <span>2. Deixe sua crítica, sugestão ou elogio:</span>
+                        <textarea class="text-mensagem" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="nps-button-enviar">enviar</div>
+
+                </div>
+                <!-- nps-container -->
+
+            </div>
+            <!-- y-wrapper -->
+
+        </div>
+        <!-- y-content -->
+
+        <vtex:template id="y-Newsletter-Novo" />
+        <vtex:template id="y-Footer" />
+
+    </div>
+    <!-- y-general -->
+
+    <vtex:template id="y-Bottom-Novo" />
+
+    <script src="/arquivos/novo.nps.min.js?v=6"></script>
+
+</body>
+
+</html>
